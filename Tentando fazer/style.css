@@ -1,0 +1,59 @@
+@font-face {
+  font-family: minhafonte;
+  src: url(fontes/idroid.otf);
+}
+*{padding: 0%;
+margin: 0%;  }
+body{background-color: aliceblue;}
+
+header{ background-image: linear-gradient(to bottom ,  #87d3a6, #1a4b36 );;
+  text-align: center; 
+  color: white;
+  height: 100px;
+
+}
+nav{text-align: left; display: flex; } 
+
+nav>a{text-decoration: none; color: white; 
+margin: 0px 10px 0px 10px;}
+
+
+
+
+nav>a:hover{background-color: #87d3a6; }
+
+main{  background-color: white;
+text-align: left;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+margin: 0px 100px 0px 100px}
+
+.esquerda{text-align: left; display: flex; font-size: 1em; text-indent: 10px; padding: 10px; text-justify: auto;}
+
+h2{background-image: linear-gradient(to right ,  #87d3a6, #1a4b3609);text-align: left; padding: 1px;
+margin: 10px;}
+
+
+footer{
+ display: flex;
+ justify-content: center;
+align-items: center;
+height: 50px;
+background-color: #1a4b36;
+color: rgb(0, 0, 0);
+background-image: linear-gradient(to bottom ,  #87d3a6, #1a4b36 );
+}
+
+li{ text-align: left ;
+  margin: 10px;
+
+
+
+
+}
+#lista{text-align: right; display: inline;}
+
+
